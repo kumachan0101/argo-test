@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: gitops-service
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   ports:
     - name: gitops
       protocol: TCP
