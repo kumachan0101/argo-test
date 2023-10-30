@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: gitops-deployment9
+  name: gitops-deployment10
 spec:
   replicas: 3
   selector:
